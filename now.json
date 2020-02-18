@@ -1,0 +1,17 @@
+{
+    "version": 2,
+    "build": {
+        "env" : {
+            "AUTH0SECRET": "@auth0_secret",
+            "CLIENT_ID": "@auth0_clientid",
+            "DOMAIN":  "@auth0_domain",
+            "REDIRECT_URI": "https://productivity-logger.now.sh/"
+        }
+    },
+    "env": {
+        "AUTH0SECRET": "@auth0_secret",
+        "CLIENT_ID": "@auth0_clientid",
+        "DOMAIN":  "@auth0_domain",
+        "REDIRECT_URI": "https://productivity-logger.now.sh/"
+    }
+}

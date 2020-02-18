@@ -1,0 +1,35 @@
+{
+  "name": "Productivity-Logger",
+  "version": "1.0.0",
+  "description": "A web app for showcasing your progress for various activities.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "find": "pgrep node",
+    "kill": "pkill node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jlbroughton88/Productivity-Logger.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jlbroughton88/Productivity-Logger/issues"
+  },
+  "homepage": "https://github.com/jlbroughton88/Productivity-Logger#readme",
+  "dependencies": {
+    "@auth0/nextjs-auth0": "^0.10.0",
+    "@zeit/next-sass": "^1.0.1",
+    "dotenv": "^8.2.0",
+    "next": "^9.2.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "use-auth0-hooks": "^0.7.0",
+    "webpack": "^4.41.6"
+  }
+}
